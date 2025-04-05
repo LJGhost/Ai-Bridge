@@ -49,7 +49,7 @@ A simple Streamlit-based dashboard that brings together multiple AI tools:
 
 
 
-Note : For CLG.py User would require their own cohere API Key 
+**Note : For CLG.py User would require their own cohere API Key** 
 
 ### 1. Clone the repository
 
