@@ -19,18 +19,23 @@ if st.sidebar.button("Resume Analyser"):
 if st.sidebar.button("Bullet Enhancer"):
     st.session_state.page = "Bullet Enhancer"
 
+
 # Load Selected Page
 if st.session_state.page == "ai_summariser":
     import ai_summariser
+    ai_summariser.run()
 
 elif st.session_state.page == "pdf_summarizer":
     import pdf_summarizer
+    pdf_summarizer.run()
 
 elif st.session_state.page == "resume_analyser":
     import resume_analyser
+    resume_analyser.run()
 
 elif st.session_state.page == "Bullet Enhancer":
     import clg
+    clg.run()
 
 else:
     st.title("Welcome to the AI Tools Dashboard")
